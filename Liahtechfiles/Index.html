@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SignUpForm</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="StylesSignup.css">
+    <script src="Signupform.js"></script>
+   </head>
+
+  <body> 
+    <h1 id="title">TEKS<span id="txtclr">TEDIA</span></h1>
+    <h2 id="sub-title">SignUp Form</h2>
+
+    <form id="signUpForm" method="post" action="">
+
+    <fieldset>
+      <label id="name-label" for="name">Name <input id="name" type="text"  placeholder="Enter your name"/></br>
+      </label>
+      <span id="nameError" class="error"></span>
+
+      <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your email"/></br>
+      </label>
+      <span id="emailError" class="error"></span>
+      
+      <label id="password-label" for="password">Password <input id="password" type="password" placeholder="Create password"/></br>
+      </label>
+      <span id="passwordError" class="error"></span>
+        
+      <label id="confirmpassword-label" for="confirmpassword">Confirm password <input id="confirmPassword" type="password"
+         placeholder="Confirm password"/></br>
+        </label>
+        <span id="confirmPasswordError" class="error"></span>
+    </fieldset>
+   
+    <input type="submit" id="submit" value="Submit">
+    </form>
+    
+  </body>
+</html>

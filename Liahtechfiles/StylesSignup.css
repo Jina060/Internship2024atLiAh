@@ -1,0 +1,90 @@
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1323851976/photo/classmates-are-learning-through-laptop.jpg?s=612x612&w=0&k=20&c=Np1osLGMa-b1jKLvrpteJBO9vinhkSHkRVgg-7VAOAk=");
+  /* overflow: hidden; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  background-attachment: fixed;
+  background-color: rgba(52, 82 205, 0.5);
+  font-family: Tahoma;
+  font-size: 17px;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+}
+
+h1, h2 {
+  margin: 0.3em auto;
+  text-align: center;
+  color: rgb(12, 29, 78);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+   
+}
+
+#txtclr {
+    color: rgb(118, 0, 0);
+}
+
+form {
+  width: 70vw;
+  max-width:750px;
+  min-width: 300px;
+  margin: auto;
+  padding: 0.5em 1em;
+  background-color:rgba(12, 29, 78, 0.9);
+  padding-bottom: 15px;
+}
+
+fieldset{
+  border: none;
+  padding: 10px 0;
+}
+
+label {
+  display: block;
+  margin: 0.9em;
+  font-size: 19px;
+}
+
+input {
+  margin: 5px, 0, 0, 0;
+  width: 100%;
+  min-height: 3em;
+  margin-top: 4px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+width: 150px;
+margin: 5px 300px 8px 300px;
+height: 0.5em;
+font-size: 1.1rem;
+background-color: rgb(118, 0, 0);
+color: white;
+border: none;
+}
+
+.error {
+    color: red;
+
+}
+
+
+
+
+
+
+    
